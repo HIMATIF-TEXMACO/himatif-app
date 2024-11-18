@@ -1,0 +1,26 @@
+{
+  "name": "himatif",
+  "version": "1.0.0",
+  "description": "HIMATIF App Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouraNoAI/HIMATIF.git"
+  },
+  "keywords": [
+    "HIMATIF",
+    "HIMATIF",
+    "Texmaco",
+    "himatif",
+    "texmaco"
+  ],
+  "author": "Youra No AI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YouraNoAI/HIMATIF/issues"
+  },
+  "homepage": "https://github.com/YouraNoAI/HIMATIF#readme"
+}
