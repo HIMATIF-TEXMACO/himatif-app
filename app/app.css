@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+  scroll-behavior: smooth !important;
+  font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #60a5fa;
+}
+
+.product-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+.product-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.my-white-bg {
+  background-color: #eaeaea;
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @apply dark:bg-gray-950;
+}
